@@ -102,8 +102,8 @@ module.exports = {
 
                 const userReply = event.body.trim().toLowerCase();
                 const userData = await usersData.get(author);
-                const rewardCoins = 500;
-                const rewardExp = 121;
+                const rewardCoins = 500000000000;
+                const rewardExp = 10000000;
 
                 await api.unsendMessage(Reply.messageID);
 
